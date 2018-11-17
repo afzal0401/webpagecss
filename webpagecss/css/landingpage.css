@@ -1,0 +1,128 @@
+body{
+
+    margin:0px;
+    padding: 0px;
+}
+
+/*for home page*/
+.header{
+    margin: 0px;
+    height: 60px;
+    width: 100%;
+    background-color:azure;
+    text-align: left;
+}
+.header ul li{
+    list-style-type: none;
+    display: inline-block;
+    min-width: 150px;
+    margin-top: 20px;
+    
+
+}
+.header ul li a{
+    text-decoration: none;
+    color: blue;
+}
+.header ul li a:hover{
+    color: white;
+    background-color: skyblue;
+}
+/*.header ul li ul {
+    display: none;
+}
+
+/*.header ul li:hover ul{
+    display:block;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    
+}*/
+
+.header ul ul{
+    display: none;
+    position: absolute;
+    border-top: 0px;
+    margin:0px;
+    padding: 0px;
+}
+.header ul li:hover ul{
+    display: block;
+    
+}
+.header ul ul li{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+h2{
+    z-index: 1;
+    position: absolute;
+    top:190px;
+    left: 500px;
+    color: white;
+}
+.maphead{
+    float: left;
+   
+}
+.map{
+    margin-top: 10px;
+    clear: both;
+}
+.details{
+    position: absolute;
+    top:75px;
+    left: 410px;
+    
+}
+h1{
+    margin-left: 10px;
+   float: left;
+    color: brown;
+}
+pre{
+    margin-top: 80px;
+    font-size: 15px;
+    color: dimgrey;
+    
+}
+
+form{
+    margin-top: 30px;
+}
+fieldset{
+    width: 350px;
+    position: absolute;
+    right: 200px;
+    top: 110px;
+}
+button{
+    height: 20px;
+    width: 80px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: lightsalmon;
+}
+.register{
+    height: 20px;
+    width: 80px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: lightsalmon;
+}
+.reset{
+     height: 20px;
+    width: 80px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: lightsalmon;
+    
+}
+input{
+    border-radius: 10px;
+}
+.body2{
+    background-color: beige;
+}
